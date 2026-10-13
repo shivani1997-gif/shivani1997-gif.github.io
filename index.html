@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>Shivani Das</title>
 <meta name="description" content="Shivani Das. Investor, founder and builder, based in London.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -168,13 +173,50 @@ footer h2 span{color:var(--hi)}
 .f__grid a{font-size:14.5px;font-weight:500;text-decoration:none;border-bottom:1px solid var(--hi);padding-bottom:2px}
 .f__grid a:hover{color:var(--hi)}
 .f__note{font-size:12.5px;color:var(--onDarkMut);margin-top:58px;max-width:600px;line-height:1.75}
+/* ---------- phone ---------- */
+@media(max-width:640px){
+  body{font-size:16px}
+  .wrap{padding:0 18px}
+  section{padding:64px 0}
+  .hero{padding:44px 0 60px}
+  .hero h1{font-size:clamp(40px,12vw,56px);margin:10px 0 22px}
+  .hero__pic{width:112px;height:112px}
+  .hero__sub{font-size:16px}
+  .stats{gap:10px;margin-top:30px}
+  .stat{padding:16px 14px 14px}
+  .stat__n{font-size:30px}
+  .stat__l{font-size:10.5px;letter-spacing:.08em}
+  h2{font-size:clamp(30px,8.6vw,40px)}
+  .lede{font-size:16.5px}
+  .eyebrow{font-size:11px;margin-bottom:18px}
+  .nav__in{height:58px}
+  .brand{font-size:19px}
+  .nav__cta{padding:10px 14px;font-size:12.5px}
+  .tabs{width:100%}
+  .tabs button{flex:1;padding:11px 8px}
+  .linkrow{flex-direction:column}
+  .linkrow .btn{text-align:center}
+  .cards3,.memo4{margin-top:28px}
+  .card,.memo{padding:20px}
+  .hscroll{grid-auto-columns:82%;margin:0 -18px;padding:16px 18px 14px;scroll-padding:0 18px}
+  .ev__group{margin-top:30px}
+  .known{padding:20px}
+  .stack{gap:32px}
+  .fav{padding:22px}
+  footer{padding:64px 0 44px}
+  footer h2{font-size:clamp(38px,11vw,52px)}
+  .f__grid{flex-direction:column;gap:18px;margin-top:34px}
+  .f__grid a{align-self:flex-start}
+  .f__note{margin-top:40px}
+}
 @media(prefers-reduced-motion:reduce){
   .ticker__inner{animation:none}
   .reveal{opacity:1;transform:none;transition:none}
   html{scroll-behavior:auto}
 }
 </style>
-
+</head>
+<body>
 <div class="ticker" aria-hidden="true"><div class="ticker__inner">
   Seed to growth &nbsp;•&nbsp; <b>500+ startups screened &amp; sourced</b> &nbsp;•&nbsp; Founder × Investor × Builder &nbsp;•&nbsp; <b>$110M executed</b> &nbsp;•&nbsp; 350+ founder pipeline built &nbsp;•&nbsp; Based in London &nbsp;•&nbsp; Seed to growth &nbsp;•&nbsp; <b>500+ startups screened &amp; sourced</b> &nbsp;•&nbsp; Founder × Investor × Builder &nbsp;•&nbsp; <b>$110M executed</b> &nbsp;•&nbsp; 350+ founder pipeline built &nbsp;•&nbsp; Based in London &nbsp;•&nbsp;
 </div></div>
@@ -210,10 +252,10 @@ footer h2 span{color:var(--hi)}
           </div>
         </div>
         <div class="stats">
-          <div class="stat"><div class="stat__n"><span data-count="500">0</span><i>+</i></div><div class="stat__l">Startups screened &amp; sourced</div></div>
-          <div class="stat"><div class="stat__n">$<span data-count="110">0</span>M</div><div class="stat__l">Deals executed (15)</div></div>
-          <div class="stat"><div class="stat__n"><span data-count="42">0</span><i>%</i></div><div class="stat__l">Of fund deployments shaped</div></div>
-          <div class="stat"><div class="stat__n"><span data-count="350">0</span><i>+</i></div><div class="stat__l">Founder pipeline built</div></div>
+          <div class="stat"><div class="stat__n"><span data-count="500">500</span><i>+</i></div><div class="stat__l">Startups screened &amp; sourced</div></div>
+          <div class="stat"><div class="stat__n">$<span data-count="110">110</span>M</div><div class="stat__l">Deals executed (15)</div></div>
+          <div class="stat"><div class="stat__n"><span data-count="42">42</span><i>%</i></div><div class="stat__l">Of fund deployments shaped</div></div>
+          <div class="stat"><div class="stat__n"><span data-count="350">350</span><i>+</i></div><div class="stat__l">Founder pipeline built</div></div>
         </div>
       </div>
 
@@ -445,3 +487,6 @@ if (gitBtn) {
 }
 </script>
 
+
+</body>
+</html>
